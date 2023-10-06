@@ -34,7 +34,7 @@ public class Contjdbc {
 	//postmapping to put list of products
 	
 	@PostMapping("/putAll")
-	public ist<Pojojdbc> getAll(List<Pojojdbc> e) {
+	public List<Pojojdbc> getAll(List<Pojojdbc> e) {
 		return sc.putAll(e);
 	}
 	
