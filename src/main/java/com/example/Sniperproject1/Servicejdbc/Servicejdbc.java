@@ -27,13 +27,13 @@ public class Servicejdbc {
 	//postmapping
 	
 	public List<Pojojdbc> putAll(List<Pojojdbc> e) {
-		return repo.saveAll(eer);
+		return repo.saveAll(e);
 	}
 	
 	//deletemapping
 	public String delAll(int id) {
 		 repo.deleteById(id);
-		 return "deleted the value+id+id;
+		 return "deleted the value"+id;
 	}
 	
 	//delmapp
