@@ -33,7 +33,7 @@ public class Servicejdbc {
 	//deletemapping
 	public String delAll(int id) {
 		 repo.deleteById(id);
-		 return "deleted the value"+id;
+		 return "deleted the value+id;
 	}
 	
 	//delmapp
